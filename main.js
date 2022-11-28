@@ -23,22 +23,3 @@ body.addEventListener('keydown', function(event){
     randomLetter();
   }
 })
-
-
-
-// function ltr(){
-//   document.body.addEventListener('keydown', function(event){
-//     console.log(event.key);
-//   })
-// }
-// ltr()
-
-// document.body.addEventListener('keydown', function(event){
-//   let letterPressed = event.key;
-//   console.log(letterPressed);
-//   // compare key pressed to random letter
-//   if(randomLetter === letterPressed){
-//     msg.textContent = "SECRET KEY PRESSED: " + letterPressed;
-//     body.appendChild(msg);
-//   }
-// });
