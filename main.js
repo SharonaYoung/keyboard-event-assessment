@@ -4,7 +4,7 @@ let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
 // variable to randomly select a letter
 let secretLetter = '';
 const randomLetter = () => {
-  secretLetter = letters[Math.floor(Math.random() * 25)];
+  secretLetter = letters[Math.floor(Math.random() * 26)];
   console.log(secretLetter);
 }
 randomLetter();
